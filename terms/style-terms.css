@@ -64,6 +64,13 @@ nav a.active{
     border-bottom: 3px solid #6556b7;
 }
 
+
+nav a:hover,
+nav a.active{
+    color: #6556b7;
+    border-bottom: 3px solid #6556b7;
+}
+
 @media(max-width:995px){
     nav{
         position: absolute;
@@ -114,79 +121,15 @@ section{
     line-height: 1.3;
 }
 
-span{
-    color: #6556b7;
-}
-
 .home-content h3{
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
     font-weight: 700;
+    color: #6556b7;
 }
 
 .home-content p{
     font-size: 1.6rem;
-}
-
-.home-img{
-    border-radius: 50%;
-}
-
-.home-img img{
-    position: relative;
-    width: 32vw;
-    border-radius: 50%;
-    box-shadow: 0 0 25px solid #6556b7;
-    cursor: pointer;
-    transition: 0.2s linear;
-}
-
-.home-img img:hover{
-    font-size: 1.8rem;
-    font-weight: 500;
-}
-
-.social-icons a{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 4rem;
-    height: 4rem;
-    background-color: transparent;
-    border: 0.2rem solid #6556b7;
-    font-size: 2rem;
-    border-radius: 50%;
-    margin: 1.5rem 1.5rem 3rem 0;
-    transition: 0.3s ease;
-    color: #6556b7;
-}
-
-.social-icons a:hover{
-    color: black;
-    transform: scale(1.3) translateY(-5px);
-    background-color: #6556b7;
-    box-shadow: 0  0 25px #6556b7;
-}
-
-.btn{
-    display: inline-block;
-    padding: 1rem 2.8rem;
-    background-color: black;
-    border-radius: 4rem;
-    font-size: 1.6rem;
-    color: #6556b7;
-    letter-spacing: 0.3rem;
-    font-weight: 600;
-    border: 2px solid #6556b7;
-    transition: 0.3s ease;
-    cursor: pointer;
-}
-
-.btn:hover{
-    transform: scale3d(1.03);
-    background-color: #6556b7;
-    color: black;
-    box-shadow: 0 0 25px #6556b7;
 }
 
 .typing-text{
@@ -194,8 +137,6 @@ span{
     font-weight: 600;
     min-width: 280px;
 }
-
-
 
 @media (max-width: 1000px){
     .home{
@@ -213,10 +154,6 @@ span{
         font-size: 2.5rem;
     }
 
-    .home-content h1{
-        font-size: 5rem;
-    }
-
     .home-img img{
         width: 70vw;
         margin-top: 4rem;
@@ -228,39 +165,4 @@ span{
     margin-left: 20px;
     font-size: 1.5rem;
     
-}
-
-.cualidades {
-    color: #6556b7;
-    font-weight: bold;
-}
-
-.test-li {
-    color: #fff;
-    font-weight: 400;
-}
-
-.espacio {
-    margin-top: 30px;
-}
-
-.box {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.caracteristica {
-    width: 370px;
-    background-color: #2227;
-    margin-top: 10px;
-    padding: 15px 5px 20px 15px;
-    border-radius: 8px;
-    box-shadow: 0 0 5px 0 #6556b7;
-}
-
-.caracteristica h4{
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    display: flex;
 }

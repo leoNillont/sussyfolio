@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="author" content="Lexsor00">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles-contact.css">
+    <link rel="icon" href="../favicon.png" type="imagen/png">
+    <title>Contact Lexsor00</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"></a>
+
+        <nav>
+            <a href="../index.html"><i class="fa-solid fa-house"></i> Home</a>
+            <a href="#" class="active"><i class="fa-solid fa-briefcase"></i> Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <form action="https://formspree.io/f/manyneoo" method="POST">
+                    <h2>Formulario de Contacto</h2>
+                    <!-- INFORMACIÓN BÁSICA -->
+                    <fieldset>
+                        <legend> Información Básica</legend>  <!-- SIMPLE INPUTS -->
+                        <div class="form-input">
+                            <label><i class="fa-solid fa-user"></i> Nombre Completo
+                                <input type="text" name="Nombre" placeholder="John Doe" required minlength="5">
+                            </label>
+                        </div>
+                        <div class="form-input">
+                            <label><i class="fa-solid fa-envelope"></i> Email
+                                <input type="email" name="Email" placeholder="example@gmail.com" required>
+                            </label>
+                        </div>
+                        <div class="form-input">
+                            <label><i class="fa-solid fa-tag"></i> Asunto
+                            <input type="text" name="Asunto" placeholder="Asunto de tu mensaje" required>
+                            </label>
+                        </div>
+                    </fieldset>
+                    <!-- INFORMACIÓN DE PRODUCTOS -->
+                    <fieldset>
+                        <legend>Información Productos</legend>
+                        <div class="form-input">
+                            <label><i class="fa-solid fa-folder-open"></i> Tipo de Pedido
+                                <select name="Pedido">
+                                    <option value="Setup">Setup</option>
+                                    <option value="Configurar-Server">Configurar Server</option>
+                                    <option value="Publicidad">Publicidad</option>
+                                    <option value="Programar">Programar</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="form-input">
+                            <label><i class="fa-solid fa-code-compare"></i> ¿Como me encontraste? (opcional)
+                                <input list="referente">
+                                <datalist id="referente" name="type-of-referido">
+                                    <option value="Lexsor00">Creador del sitio web</option>
+                                    <option value="Un amigo">Me recomendó un amigo</option>
+                                    <option value="Redes">Mediante una publicación</option>
+                                </datalist>
+                            </label>
+                        </div>
+                        <!-- MENSAJE -->
+                        <div class="form-input">
+                            <label><i class="fa-solid fa-file-pen"></i> Mensaje
+                                <textarea rows="6" name="mensaje" placeholder="Describe lo que buscas..." required></textarea>
+                            </label>
+                        </div>
+                    </fieldset>
+                    <div class="form-input">
+                            <label><i class="fa-solid fa-lock"></i> Acepto los <a class="terminos" href="../terms/terms.html"aria-required="">términos y condiciones</a>
+                            <input type="checkbox" class="checkbox" required>
+                        </label>
+                    </div>
+                    <div class="form-input">
+                        <input class="btn" type="submit" value="Enviar Formulario">
+                    </div>
+                </form>
+            </div>    
+        </section>
+    </main>
+</body>
+</html>

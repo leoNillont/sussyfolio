@@ -45,60 +45,6 @@ nav a.active{
     border-bottom: 3px solid #6556b7;
 }
 
-@media(max-width:995px){
-    nav{
-        display: flex;
-        gap: 40px;
-        position: absolute;
-        top: -45px;
-        left: 35px;
-        width: 90%;
-        scale: 0.7;
-        border-bottom-left-radius: 2rem;
-        padding: 1rem solid;
-        border-top: 0.1rem solid rgba(0,0,0,0.1);
-    }
-
-    nav.active{
-        display: block;
-    }
-
-    nav a{
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-        background-color: #2228;
-        padding: 10px;
-        border-radius: 8px;
-    }
-
-    nav a:hover,
-    nav a.active{
-        padding: 1rem;
-        border-radius: 0.5rem;
-        border-bottom: 0.5rem solid #6556b7;
-    }
-}
-
-
-
-body {
-    font-family: sans-serif;
-    color: #ddd;
-    background-color: #222;
-}
-
-
-h2 {
-    text-align: center;
-    margin: 0;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    font-weight: 100;
-    font-size: 22px;
-    padding: 10px;
-}
-
 form {
     background: #272727;
     padding: 20px 0;
@@ -143,6 +89,63 @@ form::before {
     }
 }
 
+@media(max-width:995px){
+    nav{
+        display: flex;
+        gap: 40px;
+        position: absolute;
+        top: -45px;
+        left: 35px;
+        width: 90%;
+        scale: 0.7;
+        border-bottom-left-radius: 2rem;
+        padding: 1rem solid;
+        border-top: 0.1rem solid rgba(0,0,0,0.1);
+    }
+
+    nav.active{
+        display: block;
+    }
+
+    nav a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        background-color: #2228;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    nav a:hover,
+    nav a.active{
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border-bottom: 0.5rem solid #6556b7;
+    }
+
+    form{
+        margin: 20px;
+    }
+}
+
+
+
+body {
+    font-family: sans-serif;
+    color: #ddd;
+    background-color: #222;
+}
+
+
+h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 22px;
+    padding: 10px;
+}
 
 .form-input {
     padding: 6px 20px;

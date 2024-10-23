@@ -47,10 +47,12 @@ nav a.active{
 
 @media(max-width:995px){
     nav{
+        display: flex;
+        gap: 40px;
         position: absolute;
-        top: -35px;
-        left: 0px;
-        width: 20%;
+        top: -45px;
+        left: 35px;
+        width: 90%;
         scale: 0.7;
         border-bottom-left-radius: 2rem;
         padding: 1rem solid;
@@ -65,6 +67,9 @@ nav a.active{
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
+        background-color: #2228;
+        padding: 10px;
+        border-radius: 8px;
     }
 
     nav a:hover,

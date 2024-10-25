@@ -129,7 +129,7 @@ span{
     font-weight: 700;
 }
 
-.home-content p, ul{
+.home-content p{
     font-size: 1.6rem;
 }
 
@@ -228,46 +228,11 @@ span{
     }
 }
 
-.servers {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 15px;
-}
-
-.server-box {
-    width: 370px;
-    background-color: #2227;
-    margin-top: 10px;
-    padding: 0 5px 0 15px;
-    border-radius: 8px;
-    align-items: center;
-    box-shadow: 0 0 5px 0 #6556b7;
-}
-
-
 .lista {
     margin: 10px;
     margin-left: 20px;
     font-size: 1.5rem;
     
-}
-.valores {
-    margin-right: 80px;
-}
-
-.list-title {
-    font-size: 1.6rem;
-    color:#6556b7;
-    font-weight: bold;
-}
-
-.img-proyect {
-    width: 250px;
-}
-
-.espacio {
-    margin-top: 50px;
 }
 
 .cualidades {
@@ -278,4 +243,29 @@ span{
 .test-li {
     color: #fff;
     font-weight: 400;
+}
+
+.espacio {
+    margin-top: 30px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.caracteristica {
+    width: 370px;
+    background-color: #2227;
+    margin-top: 10px;
+    padding: 15px 5px 20px 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 0 #6556b7;
+}
+
+.caracteristica h4{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    display: flex;
 }
